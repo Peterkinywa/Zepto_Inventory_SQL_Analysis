@@ -1,5 +1,5 @@
 # Zepto_Inventory_SQL_Analysis
-End-to-end SQL Data Analysis of Zepto E-commerce Inventory data using PostgreSQL.
+End-to-end SQL Data Analysis of Zepto E-commerce Inventory data using PostgreSQL on pgAdmin 4.
 
 ## Dataset Overview
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.

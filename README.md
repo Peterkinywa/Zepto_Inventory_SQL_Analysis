@@ -1,10 +1,10 @@
 # Zepto_Inventory_SQL_Analysis
-End-to-end SQL Data Analysis of Zepto E-commerce Inventory data using PostgreSQL on pgAdmin 4.
+End-to-end SQL data analysis of Zepto E-commerce inventory data using PostgreSQL on pgAdmin.
 
 ## Dataset Overview
-The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
+The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings. It mimics what you wouldd typically encounter in a real-world e-commerce inventory system.
 
-Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility – exactly how real catalog data looks.
+Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts or categories to improve visibility – exactly how real catalog data looks.
 
 ### Columns
 - sku_id: Unique identifier for each product entry (Synthetic Primary Key)
@@ -12,7 +12,7 @@ Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate p
 - category: Product category like Fruits, Snacks, Beverages, etc.
 - mrp: Maximum Retail Price (originally in paise, converted to Rupee)
 - discountPercent: Discount applied on MRP
-- discountedSellingPrice: Final price after discount (also converted to ₹)
+- discountedSellingPrice: Final price after discount (also converted to Rupee)
 - availableQuantity: Units available in inventory
 - weightInGms: Product weight in grams
 - outOfStock: Boolean flag indicating stock availability
